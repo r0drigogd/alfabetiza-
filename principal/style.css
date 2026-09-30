@@ -1,0 +1,54 @@
+/* Declaração de estilo principal da página */
+
+h1{
+color: rgb(17, 0, 95);
+font-size: 45px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h3{
+color: rgb(6, 92, 172);
+font-size: 25px;
+
+
+    
+}
+body{
+    background-color: antiquewhite;
+    background-image: url();
+}
+a{
+    text-decoration: underline double blue;
+    text-transform: capitalize;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+a:hover{
+    color: rgb(172, 6, 106);
+    text-decoration: none;
+
+}
+li.n0rdenada{
+list-style-image:url(Linux_mascot_tux.png) ;
+background-size: 4px 4px;
+
+}
+li.ordenada{
+    list-style-type: upper-alpha;
+}
+
+#perfumes {
+    background: #ff0000;
+}
+#onibus {
+    background: #fff700;
+}
+h1.PlanoA {
+    background: orange;
+    padding: 10px 10px 10px 30px;
+    border: 4px  solid black;
+    width: 350px;
+    height: 150px;
+    }
+
